@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+}
+body {
+	margin: 0; 
+    
+}
+.heading{
+        padding: 1.4em 1em;
+        color: rgba(255, 255, 255, 0.8);
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/ingredients-1920w.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+a , .Nav {
+    color: #FDBB48;
+    text-decoration: none;
+}
+ .Nav, .content{
+    
+	padding: 0 1em;
+	margin: 0 auto;
+    width: auto;
+    border: 0 ;
+    display: flow-root;
+}
+.story{
+    padding: 0 1em;
+	margin: 0 auto;
+    border: 0 ;
+    display: flow-root;
+}
+.baking,.T{
+   background-color: #ffbc48; 
+   padding: 0.1em 0.2em 0em; 
+   color: #222028
+}
+.Nav{
+    background-color: #222028;
+}
+.img{
+    max-width: 100%;
+}
+
+a {
+    color: #ffbc48;
+}
+.content{
+    background-color: rgb(255, 255, 255);
+	width: auto;
+	max-width: 30em;
+}
+.gram{
+    background-color: #ffbc48; 
+   padding: 0.1em 0.2em 0em; 
+   border: 1px solid black;
+}
+.lbs{
+    border: 1px solid gray;
+}
+.ul{
+    list-style-type: none;
+}
